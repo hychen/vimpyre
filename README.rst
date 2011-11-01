@@ -11,10 +11,9 @@ Requirements
 
 1. git
 2. python
-3. python-plac (http://pypi.python.org/pypi/plac)
-4. python-simplejson (http://pypi.python.org/pypi/simplejson)
-5. python-lxml (http://lxml.de/)
-6. python-requests (http://python-requests.org)
+3. python-simplejson (http://pypi.python.org/pypi/simplejson)
+4. python-lxml (http://lxml.de/)
+5. python-requests (http://python-requests.org)
 
 Install
 -------
@@ -125,5 +124,3 @@ Change Log
 
     * NEW: add `vimpyre browse <script_name>` to browse vim scripts page
     * CHANGE: vimpyre code refactoring
-
-

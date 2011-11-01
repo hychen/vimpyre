@@ -146,7 +146,6 @@ Change Log
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'plac>=0.7.4',
           'simplejson>=2',
           'requests>=0.7.1',
           'lxml>=2.2'
