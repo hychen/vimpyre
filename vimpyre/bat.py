@@ -44,12 +44,7 @@ class Bat(object):
         return self.CURR_SCRIPT.split('/')[-1]
 
     def _render_fetch_url(self, ret):
-        if type(ret) == dict:
-            fetch_url = ret['url'] + '.git'
-        else:
-            fetch_url = ret
-
-        return fetch_url
+        return type(ret) == dict and ret['url'] + '.git' or ret
 
     @property
     def bundles(self):
